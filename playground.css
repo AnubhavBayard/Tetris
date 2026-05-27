@@ -1,0 +1,20 @@
+body {
+  background: #111;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(10, 30px);
+  grid-template-rows: repeat(20, 30px);
+  gap: 1px;
+}
+
+.cell {
+  width: 30px;
+  height: 30px;
+  background: #222;
+  border: 1px solid #333;
+}
