@@ -1,0 +1,18 @@
+body {
+  background: #111;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#shape{
+    display: grid;
+    grid-template-columns: repeat(4, 40px);
+    gap: 2px;
+}
+
+.cell{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+}
