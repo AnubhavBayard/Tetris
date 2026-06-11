@@ -24,12 +24,19 @@ for (let row = 0; row < ROWS; row++) {
     }
 }
 
-gameBoard[0][1] = 1;
-gameBoard[1][1] = 1;
-gameBoard[2][1] = 1;
-drawBoard();
+
+function drawBoard(){
+    for(let i =0;i<ROWS;i++){
+        for(let j =0;j<COLS;j++){
+            
+        }
+    }
+}
+// comment because the value we are changing here
+
 
 function drawBoard() {
+    console.log("drawBoard(")
     for (let row = 0; row < ROWS; row++) {
         for (let col = 0; col < COLS; col++) {
             if (gameBoard[row][col] === 0) {
@@ -40,3 +47,5 @@ function drawBoard() {
         }
     }
 }
+
+ 
